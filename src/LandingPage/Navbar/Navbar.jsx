@@ -29,6 +29,7 @@ const Navbar = () => {
         <img src={Search}  className='navbar-logo-search' alt="" />
         <a href='/' className="account-bn">Create Account</a>
         <a href='/' className="signup-bn">Sign Up</a>
+        <a href='/' className="navbar-apply-bn">Apply Now</a>
       </div>
     </div>
   )
