@@ -212,6 +212,9 @@
     height: 180px;
     margin-bottom: 0;
   }
+  .lp-hero-button1, .lp-hero-button2, .lp-challenges-section-button {
+    width: 90px;
+  }
   .lp-gray-strip img {
     height: 30px;
   }
@@ -221,7 +224,8 @@
   }
 
 .lp-challenges-section img {
-    height: 80vh;
+    width: 80vw;
+    height: auto;
   }
   .lp-blue-countup-section {
     flex-direction: column;

@@ -23,7 +23,7 @@ const Navbar = () => {
         <a href="/" className="navbar-item">Offers</a>
         <a href="/" className="navbar-item">Courses</a>
         <a href="/" className="navbar-item">Contact</a>
-        <button onClick={showNavbar} className='close-button'><FaTimes className='icon'/></button>
+        <button onClick={showNavbar} className='close-button'><FaTimes size={20} className='icon'/></button>
       </div>
       <div className="navbar-buttons">
         <img src={Search}  className='navbar-logo-search' alt="" />
