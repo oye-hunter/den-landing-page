@@ -212,9 +212,16 @@
     height: 180px;
     margin-bottom: 0;
   }
+  .lp-gray-strip img {
+    height: 30px;
+  }
   .lp-challenges-section {
     flex-direction: column;
     row-gap: 50px;
+  }
+
+.lp-challenges-section img {
+    height: 80vh;
   }
   .lp-blue-countup-section {
     flex-direction: column;
@@ -232,7 +239,6 @@
     margin: 0;
   }
   .lp-blue-countup-section-seperator {
-    background-color: rgb(255, 255, 255);
     width: 40px;
     height: 1px;
   }
