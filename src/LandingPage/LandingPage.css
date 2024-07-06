@@ -22,8 +22,6 @@
     font-weight: 370;
 }
 img.lp-hero-section-image {
-    position: relative;
-    top: 20px;
     height: 65vh;
 }
 .lp-hero-buttons {
@@ -65,8 +63,7 @@ img.lp-hero-section-image {
     display: flex;
     column-gap: 40px;
     align-items: center;
-    padding: 0 10vw;
-    margin-top: 12px;
+    margin-top: 20px;
     font-weight: 400;
     font-size: 15px;
   }
@@ -197,4 +194,12 @@ img.lp-hero-section-image {
     background-color: rgb(255, 255, 255);
     height: 40px;
     width: 1px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .lp-hero-section {
+        flex-direction: column;
+        row-gap: 50px;
+    }
 }

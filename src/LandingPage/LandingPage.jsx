@@ -24,6 +24,10 @@ const LandingPage = () => {
             <a href="/" className="lp-hero-button2">Apply Now</a>
             <a href="/" className="lp-hero-button1">Learn More</a>
           </div>
+          <div className="lp-hero-enrollment">
+        <img src={require('../Assets/hero-pic.png')} alt="" />
+        <p>5k+ Enrollments</p>
+      </div>
         </div>
         <div className="lp-hero-section-image">
           <img
@@ -33,10 +37,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-      <div className="lp-hero-enrollment">
-        <img src={require('../Assets/hero-pic.png')} alt="" />
-        <p>5k+ Enrollments</p>
-      </div>
+      
       <div className="lp-gray-strip">
         <img src={require('../Assets/gray-strip-logo1.png')} alt="" />
         <img src={require('../Assets/gray-strip-logo2.png')} alt="" />
