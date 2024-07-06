@@ -138,4 +138,8 @@
       width: 96vw;
       margin: 0;
   }
+  .navbar-logo {
+    position: relative;
+    top: 5px;
+}
   }
