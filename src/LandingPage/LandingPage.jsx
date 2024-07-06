@@ -47,7 +47,7 @@ const LandingPage = () => {
         <img src={require('../Assets/gray-strip-logo6.png')} alt="" />
       </div>
       <div className="lp-why-den-section">
-        <h1>Why Choose DEN</h1>
+        <h3>Why Choose DEN</h3>
         <p>
           It is a long established fact that a reader will be distracted by
           the readable content of a page when looking
@@ -55,7 +55,7 @@ const LandingPage = () => {
         <div className="lp-why-den-section-main-container">
           <div className="lp-why-den-section-container">
             <img src={require('../Assets/profile-icon.png')} alt="" />
-            <h3>One on One Monitor</h3>
+            <h4>One on One Monitor</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               nihil laudantium voluptas.
@@ -64,7 +64,7 @@ const LandingPage = () => {
 
           <div className="lp-why-den-section-container">
             <img src={require('../Assets/watch-icon.png')} alt="" />
-            <h3>24/7 Mentor</h3>
+            <h4>24/7 Mentor</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               nihil laudantium voluptas.
@@ -73,7 +73,7 @@ const LandingPage = () => {
 
           <div className="lp-why-den-section-container">
             <img src={require('../Assets/grad-hat-icon.png')} alt="" />
-            <h3>Alumni</h3>
+            <h4>Alumni</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               nihil laudantium voluptas.
@@ -82,7 +82,7 @@ const LandingPage = () => {
 
           <div className="lp-why-den-section-container">
             <img src={require('../Assets/heart-icon.png')} alt="" />
-            <h3>Annual Experts</h3>
+            <h4>Annual Experts</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               nihil laudantium voluptas.
