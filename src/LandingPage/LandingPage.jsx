@@ -103,6 +103,7 @@ const LandingPage = () => {
             <a href="/" className="lp-challenges-section-button">Learn More</a>
           </div>
         </div>
+      </div>
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
           <div className="lp-blue-countup-section">
             <div className="lp-blue-countup-section-element">
@@ -126,7 +127,6 @@ const LandingPage = () => {
             </div>
           </div>
         </ScrollTrigger>
-      </div>
     </div>
   );
 };
