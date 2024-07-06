@@ -1,0 +1,200 @@
+.gap {
+    padding-top: 12vh;
+}
+.lp-hero-section {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+    align-items: center;
+    padding: 0 10vw;
+    margin-top: 10vh;
+}
+.lp-hero-section-text h1 {
+    position: relative;
+    top: -10px;
+    font-size: 55px;
+    font-weight: 780;
+    letter-spacing: -2px;
+    line-height: 70px;
+}
+.lp-hero-section-text p {
+    font-size: 17px;
+    font-weight: 370;
+}
+img.lp-hero-section-image {
+    position: relative;
+    top: 20px;
+    height: 65vh;
+}
+.lp-hero-buttons {
+    margin-top: 25px;
+}
+
+.lp-hero-button1 {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 7vw;
+    margin: 0 20px;
+    color: rgb(30, 30, 30);
+    background-color: rgb(230, 245, 248);
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+  }
+.lp-hero-button2 {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 11vw;
+    margin: 0 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 195, 208);
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .lp-hero-enrollment {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    padding: 0 10vw;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+.lp-gray-strip {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    margin-top: 50px;
+    background-color: rgb(72, 72, 72);
+}
+.lp-gray-strip img {
+    height: 40px;
+}
+
+.lp-why-den-section h1 {
+    display: flex;
+    margin: 20vh 0 10px;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: 780;
+}
+
+.lp-why-den-section p {
+    display: flex;
+    justify-content:center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10vh;
+}
+.lp-why-den-section-main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 10vw;
+
+}
+.lp-why-den-section-container {
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10vh;
+    transition: box-shadow 0.1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.lp-why-den-section-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px, rgba(0, 0, 0, 0.48) 0px 2px 6px;
+}
+.lp-why-den-section-container img {
+    position: relative; /* change when icon is changed*/
+    top: -10px; /* change when icon is changed*/
+    left: -10px; /* change when icon is changed*/
+    height: 70px;
+}
+.lp-why-den-section-container h3 {
+    position: relative; /* change when icon is changed*/
+    top: -10px; /* change when icon is changed*/
+    font-size: 16px;
+    font-weight: 700;
+}
+.lp-why-den-section-container p {
+    position: relative; /* change when icon is changed*/
+    top: -10px; /* change when icon is changed*/
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.lp-challenges-section {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 50px;
+    margin: 10vh 10vw;
+}
+.lp-challenges-section img {
+    height: 55vh;
+}
+.lp-challenges-section-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0;
+}
+.lp-challenges-section-text p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 10px 0 25px;
+}
+
+.lp-challenges-section-button {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 7vw;
+    color: rgb(30, 30, 30);
+    background-color: rgb(230, 245, 248);
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+  }
+.lp-blue-countup-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10vh 0;
+    background-color: rgb(68, 195, 208);
+    padding: 0 5vw;
+}
+.lp-blue-countup-section .countup {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 20px 0 0;
+}
+.lp-blue-countup-section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin: 0 0 20px;
+}
+.lp-blue-countup-section-seperator {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 1px;
+}
