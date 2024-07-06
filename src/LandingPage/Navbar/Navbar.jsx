@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container'>
       <div className="logo-alignment">
-      <button onClick={showNavbar} className='nav-button'><FaBars className='icon'/></button>
+      <button onClick={showNavbar} className='nav-button'><FaBars size={20} className='icon'/></button>
       <div className="navbar-logo">
         <img src={NavbarLogo} alt=''/>
       </div>
