@@ -203,6 +203,12 @@
   .lp-hero-section-image {
     height: 70vw;
   }
+  .lp-why-den-section {
+    margin: 0 10vw;
+  }
+  .lp-why-den-section h1 {
+    font-size: 50px;
+  }
   .lp-why-den-section-main-container {
     flex-direction: column;
     row-gap: 20px;
