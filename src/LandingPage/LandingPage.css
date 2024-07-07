@@ -253,6 +253,15 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .lp-hero-section-text h1 {
+        font-size: 45px;
+        font-weight: 780;
+        letter-spacing: -2px;
+        line-height: 60px;
+      }
+      .lp-hero-section-text p {
+        font-size: 14px;
+      }
   .lp-hero-section {
     flex-direction: column;
     row-gap: 50px;
