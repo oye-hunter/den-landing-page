@@ -4,3 +4,7 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  background-color: rgb(249, 250, 252);
+}
