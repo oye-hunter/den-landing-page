@@ -50,11 +50,13 @@ const LandingPage = () => {
         <img src={require("../Assets/gray-strip-logo6.png")} alt="" />
       </div>
       <div className="lp-why-den-section">
+        <div className="lp-why-den-section-text">
         <h3>Why Choose DEN</h3>
         <p>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking
         </p>
+        </div>
         <div className="lp-why-den-section-main-container">
           <div className="lp-why-den-section-container">
             <img src={require("../Assets/profile-icon.png")} alt="" />
@@ -217,6 +219,54 @@ const LandingPage = () => {
             </p>
             <a href="/">Learn More</a>
           </div>
+        </div>
+      </div>
+      <div className="lp-den-team-section">
+        <div className="lp-den-team-section-text">
+            <h3>Our Amazing Team</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
+        </div>
+        <div className="lp-den-team-section-main-container">
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-founder.png")} alt="" />
+                <h4>Syed Suhail Karar</h4>
+                <p>Founder DEN</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-co-founder.png")} alt="" />
+                <h4>Semab Tabassum</h4>
+                <p>Co-Founder DEN</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-president.png")} alt="" />
+                <h4>Muhammad Faizan</h4>
+                <p>President DEN</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-co-head.png")} alt="" />
+                <h4>Ifra Zubair Malik</h4>
+                <p>Co-head of DEN marketing and communication team </p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-head-of-gd.png")} alt="" />
+                <h4>Muddasir Haroon</h4>
+                <p>Head of Graphics Designing</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-cto.png")} alt="" />
+                <h4>Syed Afzal</h4>
+                <p>Cheif Technology (CTO)</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-full-stack-dev.png")} alt="" />
+                <h4>Faraz</h4>
+                <p>Senior full-stack Developer</p>
+            </div>
+            <div className="lp-den-team-section-container">
+                <img src={require("../Assets/den-head-ui.png")} alt="" />
+                <h4>Maha Riaz</h4>
+                <p>Head of UI/UX Designing</p>
+            </div>
         </div>
       </div>
     </div>

@@ -80,21 +80,24 @@
   height: 40px;
 }
 
-.lp-why-den-section h3, .lp-den-offer-section-text h3 {
+.lp-why-den-section h3, .lp-den-offer-section-text h3, .lp-den-team-section-text h3 {
   display: flex;
   margin: 20vh 0 10px;
   justify-content: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 780;
 }
 
-.lp-why-den-section p, .lp-den-offer-section-text p {
+.lp-why-den-section p, .lp-den-offer-section-text p, .lp-den-team-section-text p {
   display: flex;
   justify-content: center;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10vh;
 }
+.lp-why-den-section-text, .lp-den-offer-section-text p, .lp-den-team-section-text p {
+    text-align: center;
+  }
 .lp-why-den-section-main-container {
   display: flex;
   justify-content: space-evenly;
@@ -251,6 +254,46 @@
     color: rgb(255, 255, 255);
     font-weight: 300;
 }
+.lp-den-team-section-main-container {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+    padding: 0;
+    margin: 0 5vw;
+}
+.lp-den-team-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 3px solid lightskyblue; 
+    transition: box-shadow 0.1s ease-in-out;
+}
+.lp-den-team-section-container img {
+    width: 220px;
+    border-radius: 5px;
+}
+.lp-den-team-section-container h4 {
+    font-size: 18px;
+}
+.lp-den-team-section-container p {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+.lp-den-team-section-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px, rgba(0, 0, 0, 0.48) 0px 2px 6px;
+  }
 
 @media only screen and (max-width: 1024px) {
     .lp-hero-section-text h1 {
@@ -269,7 +312,7 @@
   .lp-hero-section-image {
     height: 70vw;
   }
-  .lp-why-den-section, .lp-den-offer-section {
+  .lp-why-den-section, .lp-den-offer-section, .lp-den-team-section-text p {
     margin: 0 10vw;
   }
   .lp-why-den-section h3, .lp-den-offer-section-text h3 {
@@ -323,6 +366,9 @@
   }
   .lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
     flex-direction: column;
+}
+.lp-den-team-section-main-container {
+    grid-template-columns: 0fr 0fr;
 }
 }
 
