@@ -33,7 +33,7 @@
   text-align: center;
   display: inline-block;
   padding: 14px;
-  width: 7vw;
+  width: 90px;
   margin: 0 20px;
   color: rgb(30, 30, 30);
   background-color: rgb(230, 245, 248);
@@ -133,7 +133,7 @@
   font-weight: 300;
 }
 
-.lp-challenges-section {
+.lp-challenges-section, .lp-den-with-buraaq-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -143,24 +143,24 @@
 .lp-challenges-section img {
   height: 55vh;
 }
-.lp-challenges-section-text h3 {
+.lp-challenges-section-text h3, .lp-den-with-buraaq-section h4 {
   font-size: 40px;
   font-weight: 700;
   line-height: 55px;
   margin: 0;
 }
-.lp-challenges-section-text p {
+.lp-challenges-section-text p, .lp-den-with-buraaq-section p {
   font-size: 14px;
   font-weight: 300;
   margin: 10px 0 25px;
 }
 
-.lp-challenges-section-button {
+.lp-challenges-section-button, .lp-den-with-buraaq-section-button {
   border: 0;
   text-align: center;
   display: inline-block;
   padding: 14px;
-  width: 7vw;
+  width: 90px;
   color: rgb(30, 30, 30);
   background-color: rgb(230, 245, 248);
   border-radius: 8px;
@@ -173,7 +173,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 10vh 0;
+  margin: 10vh 0 15vh;
   background-color: rgb(68, 195, 208);
   padding: 0 5vw;
 }
@@ -193,6 +193,9 @@
   background-color: rgb(255, 255, 255);
   height: 40px;
   width: 1px;
+}
+.lp-den-with-buraaq-section img {
+    width: 35vw;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -218,13 +221,13 @@
     height: 180px;
     margin-bottom: 0;
   }
-  .lp-hero-button1, .lp-hero-button2, .lp-challenges-section-button {
+  .lp-hero-button2 {
     width: 90px;
   }
   .lp-gray-strip img {
     height: 30px;
   }
-  .lp-challenges-section {
+  .lp-challenges-section, .lp-den-with-buraaq-section {
     flex-direction: column;
     row-gap: 50px;
   }
@@ -251,5 +254,8 @@
   .lp-blue-countup-section-seperator {
     width: 40px;
     height: 1px;
+  }
+  .lp-den-with-buraaq-section img {
+    width: 70vw;
   }
 }

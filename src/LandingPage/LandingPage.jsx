@@ -127,6 +127,14 @@ const LandingPage = () => {
             </div>
           </div>
         </ScrollTrigger>
+        <div className="lp-den-with-buraaq-section">
+        <div className="lp-den-with-buraaq-section-text">
+        <h4>Den with The Buraaq Academy</h4>
+        <p>Digital Empowerment Pakistan & The Buraaq Academy presents before you a webinar on Unlocking Global Opportunities: International Scholarships Guideline Session *Date: 16th-Sept-2023 Time: 7:00 PM - 9:00 PM Platform: Google Meet Apply now and invest in your future!</p>
+        <a href="/" className="lp-den-with-buraaq-section-button">Learn More</a>
+        </div>
+        <img src={require('../Assets/den-with-buraaq-img.png')} alt="" />
+        </div>
     </div>
   );
 };
