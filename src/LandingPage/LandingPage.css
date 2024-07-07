@@ -198,6 +198,60 @@
     width: 35vw;
 }
 
+.lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.lp-den-offer-section-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 14px;
+    height: 224.03px;
+    width: 348px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+.lp-den-offer-section-main-container1 .lp-den-offer-section-container:nth-child(1) {
+    background-image: url(../Assets/den-offer-seminars.png);
+    background-size: contain; /* Ensure the image fits within the box */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lp-den-offer-section-main-container1 .lp-den-offer-section-container:nth-child(2) {
+    background-image: url(../Assets/den-offer-workshops.png);
+    background-size: contain; /* Ensure the image fits within the box */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lp-den-offer-section-main-container2 .lp-den-offer-section-container:nth-child(1) {
+    background-image: url(../Assets/den-offer-courses.png);
+    background-size: contain; /* Ensure the image fits within the box */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lp-den-offer-section-main-container2 .lp-den-offer-section-container:nth-child(2) {
+    background-image: url(../Assets/den-offer-internships.png);
+    background-size: contain; /* Ensure the image fits within the box */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lp-den-offer-section-container h4 {
+    font-size: 20px;
+}
+.lp-den-offer-section-container p {
+    font-size: 10px;
+}
+.lp-den-offer-section-container a {
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
 @media only screen and (max-width: 1024px) {
   .lp-hero-section {
     flex-direction: column;
@@ -258,4 +312,7 @@
   .lp-den-with-buraaq-section img {
     width: 70vw;
   }
+  .lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
+    flex-direction: column;
+}
 }

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Navbar from './Navbar/Navbar';
-import './LandingPage.css';
-import CountUp from 'react-countup';
-import ScrollTrigger from 'react-scroll-trigger';
+import React, { useState } from "react";
+import Navbar from "./Navbar/Navbar";
+import "./LandingPage.css";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 const LandingPage = () => {
   const [counterOn, setCounterOn] = useState(false);
@@ -16,45 +16,48 @@ const LandingPage = () => {
           <h1>Empowering Students of Pakistan</h1>
           <p>
             Digital Empowerment Network is committed to work by designing
-            indigenous interventions and working in collaboration with
-            different public and private institutions for students’ greater
-            development.
+            indigenous interventions and working in collaboration with different
+            public and private institutions for students’ greater development.
           </p>
           <div className="lp-hero-buttons">
-            <a href="/" className="lp-hero-button2">Apply Now</a>
-            <a href="/" className="lp-hero-button1">Learn More</a>
+            <a href="/" className="lp-hero-button2">
+              Apply Now
+            </a>
+            <a href="/" className="lp-hero-button1">
+              Learn More
+            </a>
           </div>
           <div className="lp-hero-enrollment">
-        <img src={require('../Assets/hero-pic.png')} alt="" />
-        <p>5k+ Enrollments</p>
-      </div>
+            <img src={require("../Assets/hero-pic.png")} alt="" />
+            <p>5k+ Enrollments</p>
+          </div>
         </div>
         <div className="lp-hero-section-image">
           <img
             className="lp-hero-section-image"
-            src={require('../Assets/hero section images.png')}
+            src={require("../Assets/hero section images.png")}
             alt=""
           />
         </div>
       </div>
-      
+
       <div className="lp-gray-strip">
-        <img src={require('../Assets/gray-strip-logo1.png')} alt="" />
-        <img src={require('../Assets/gray-strip-logo2.png')} alt="" />
-        <img src={require('../Assets/gray-strip-logo3.png')} alt="" />
-        <img src={require('../Assets/gray-strip-logo4.png')} alt="" />
-        <img src={require('../Assets/gray-strip-logo5.png')} alt="" />
-        <img src={require('../Assets/gray-strip-logo6.png')} alt="" />
+        <img src={require("../Assets/gray-strip-logo1.png")} alt="" />
+        <img src={require("../Assets/gray-strip-logo2.png")} alt="" />
+        <img src={require("../Assets/gray-strip-logo3.png")} alt="" />
+        <img src={require("../Assets/gray-strip-logo4.png")} alt="" />
+        <img src={require("../Assets/gray-strip-logo5.png")} alt="" />
+        <img src={require("../Assets/gray-strip-logo6.png")} alt="" />
       </div>
       <div className="lp-why-den-section">
         <h3>Why Choose DEN</h3>
         <p>
-          It is a long established fact that a reader will be distracted by
-          the readable content of a page when looking
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking
         </p>
         <div className="lp-why-den-section-main-container">
           <div className="lp-why-den-section-container">
-            <img src={require('../Assets/profile-icon.png')} alt="" />
+            <img src={require("../Assets/profile-icon.png")} alt="" />
             <h4>One on One Monitor</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -63,7 +66,7 @@ const LandingPage = () => {
           </div>
 
           <div className="lp-why-den-section-container">
-            <img src={require('../Assets/watch-icon.png')} alt="" />
+            <img src={require("../Assets/watch-icon.png")} alt="" />
             <h4>24/7 Mentor</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -72,7 +75,7 @@ const LandingPage = () => {
           </div>
 
           <div className="lp-why-den-section-container">
-            <img src={require('../Assets/grad-hat-icon.png')} alt="" />
+            <img src={require("../Assets/grad-hat-icon.png")} alt="" />
             <h4>Alumni</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -81,7 +84,7 @@ const LandingPage = () => {
           </div>
 
           <div className="lp-why-den-section-container">
-            <img src={require('../Assets/heart-icon.png')} alt="" />
+            <img src={require("../Assets/heart-icon.png")} alt="" />
             <h4>Annual Experts</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
@@ -90,7 +93,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="lp-challenges-section">
-          <img src={require('../Assets/challenges-pic.png')} alt="" />
+          <img src={require("../Assets/challenges-pic.png")} alt="" />
           <div className="lp-challenges-section-text">
             <h3>Challenges in Achieving Digital Empowerment</h3>
             <p>
@@ -100,46 +103,122 @@ const LandingPage = () => {
               geographical location, socioeconomic status, and access to
               resources.
             </p>
-            <a href="/" className="lp-challenges-section-button">Learn More</a>
+            <a href="/" className="lp-challenges-section-button">
+              Learn More
+            </a>
           </div>
         </div>
       </div>
-        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
-          <div className="lp-blue-countup-section">
-            <div className="lp-blue-countup-section-element">
-              {counterOn && <p className='countup'><CountUp start={0} end={8200} duration={2} />+</p>}
-              <p>Success Stories</p>
-            </div>
-            <div className="lp-blue-countup-section-seperator"/>
-            <div className="lp-blue-countup-section-element">
-              {counterOn && <p className='countup'><CountUp start={0} end={12200} duration={2} />+</p>}
-              <p>Expert Mentors</p>
-            </div>
-            <div className="lp-blue-countup-section-seperator"/>
-            <div className="lp-blue-countup-section-element">
-              {counterOn && <p className='countup'><CountUp start={0} end={2500} duration={2} />+</p>}
-              <p>Hours Course</p>
-            </div>
-            <div className="lp-blue-countup-section-seperator"/>
-            <div className="lp-blue-countup-section-element">
-              {counterOn && <p className='countup'><CountUp start={0} end={3000} duration={2} />+</p>}
-              <p>Active Students</p>
-            </div>
+      <ScrollTrigger
+        onEnter={() => setCounterOn(true)}
+        onExit={() => setCounterOn(false)}
+      >
+        <div className="lp-blue-countup-section">
+          <div className="lp-blue-countup-section-element">
+            {counterOn && (
+              <p className="countup">
+                <CountUp start={0} end={8200} duration={2} />+
+              </p>
+            )}
+            <p>Success Stories</p>
           </div>
-        </ScrollTrigger>
-        <div className="lp-den-with-buraaq-section">
+          <div className="lp-blue-countup-section-seperator" />
+          <div className="lp-blue-countup-section-element">
+            {counterOn && (
+              <p className="countup">
+                <CountUp start={0} end={12200} duration={2} />+
+              </p>
+            )}
+            <p>Expert Mentors</p>
+          </div>
+          <div className="lp-blue-countup-section-seperator" />
+          <div className="lp-blue-countup-section-element">
+            {counterOn && (
+              <p className="countup">
+                <CountUp start={0} end={2500} duration={2} />+
+              </p>
+            )}
+            <p>Hours Course</p>
+          </div>
+          <div className="lp-blue-countup-section-seperator" />
+          <div className="lp-blue-countup-section-element">
+            {counterOn && (
+              <p className="countup">
+                <CountUp start={0} end={3000} duration={2} />+
+              </p>
+            )}
+            <p>Active Students</p>
+          </div>
+        </div>
+      </ScrollTrigger>
+      <div className="lp-den-with-buraaq-section">
         <div className="lp-den-with-buraaq-section-text">
-        <h3>Den with The Buraaq Academy</h3>
-        <p>Digital Empowerment Pakistan & The Buraaq Academy presents before you a webinar on Unlocking Global Opportunities: International Scholarships Guideline Session *Date: 16th-Sept-2023 Time: 7:00 PM - 9:00 PM Platform: Google Meet Apply now and invest in your future!</p>
-        <a href="/" className="lp-den-with-buraaq-section-button">Learn More</a>
+          <h3>Den with The Buraaq Academy</h3>
+          <p>
+            Digital Empowerment Pakistan & The Buraaq Academy presents before
+            you a webinar on Unlocking Global Opportunities: International
+            Scholarships Guideline Session *Date: 16th-Sept-2023 Time: 7:00 PM -
+            9:00 PM Platform: Google Meet Apply now and invest in your future!
+          </p>
+          <a href="/" className="lp-den-with-buraaq-section-button">
+            Learn More
+          </a>
         </div>
-        <img src={require('../Assets/den-with-buraaq-img.png')} alt="" />
-        </div>
-        <div className="lp-den-offer-section">
+        <img src={require("../Assets/den-with-buraaq-img.png")} alt="" />
+      </div>
+      <div className="lp-den-offer-section">
         <div className="lp-den-offer-section-text">
-        <h3>What we Offer</h3>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
-        </div></div>
+          <h3>What we Offer</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking
+          </p>
+        </div>
+        <div className="lp-den-offer-section-main-container1">
+          <div className="lp-den-offer-section-container">
+            <h4>1. Seminar</h4>
+            <p>
+              Our seminars serve as knowledge-sharing platforms, fostering
+              personal and professional growth. These events bring experts and
+              learners together to explore and discuss key topics, facilitating
+              learning and networking opportunities.
+            </p>
+            <a href="/">Learn More</a>
+          </div>
+          <div className="lp-den-offer-section-container">
+            <h4>2. Workshops</h4>
+            <p>
+              Our workshops are dynamic learning experiences designed to impart
+              practical skills and knowledge. They offer hands-on training and
+              interactive sessions, equipping participants with valuable tools
+              for personal and professional development.
+            </p>
+            <a href="/">Learn More</a>
+          </div>
+        </div>
+        <div className="lp-den-offer-section-main-container2">
+          <div className="lp-den-offer-section-container">
+            <h4>3. Tech-based Short Courses</h4>
+            <p>
+              Our tech-based short courses provide focused and practical
+              learning experiences. Tailored to industry demands, they equip
+              participants with essential skills and knowledge for today's
+              tech-driven world.
+            </p>
+            <a href="/">Learn More</a>
+          </div>
+          <div className="lp-den-offer-section-container">
+            <h4>4. Internship Opportunities</h4>
+            <p>
+              Through our extensive network and partnerships, we actively
+              facilitate internship opportunities with various companies,
+              leveraging our connections to provide valuable industry experience
+              for students.
+            </p>
+            <a href="/">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
