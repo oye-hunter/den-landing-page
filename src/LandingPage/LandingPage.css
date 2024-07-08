@@ -80,7 +80,10 @@
   height: 40px;
 }
 
-.lp-why-den-section h3, .lp-den-offer-section-text h3, .lp-den-team-section-text h3 {
+.lp-why-den-section h3,
+.lp-den-offer-section-text h3,
+.lp-den-team-section-text h3,
+.lp-gallery-section-text h3 {
   display: flex;
   margin: 20vh 0 10px;
   justify-content: center;
@@ -88,16 +91,22 @@
   font-weight: 780;
 }
 
-.lp-why-den-section p, .lp-den-offer-section-text p, .lp-den-team-section-text p {
+.lp-why-den-section p,
+.lp-den-offer-section-text p,
+.lp-den-team-section-text p,
+.lp-gallery-section-text p  {
   display: flex;
   justify-content: center;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 10vh;
 }
-.lp-why-den-section-text, .lp-den-offer-section-text p, .lp-den-team-section-text p {
-    text-align: center;
-  }
+.lp-why-den-section-text,
+.lp-den-offer-section-text p,
+.lp-den-team-section-text p,
+.lp-gallery-section-text p {
+  text-align: center;
+}
 .lp-why-den-section-main-container {
   display: flex;
   justify-content: space-evenly;
@@ -136,7 +145,8 @@
   font-weight: 300;
 }
 
-.lp-challenges-section, .lp-den-with-buraaq-section {
+.lp-challenges-section,
+.lp-den-with-buraaq-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,19 +156,22 @@
 .lp-challenges-section img {
   height: 55vh;
 }
-.lp-challenges-section-text h3, .lp-den-with-buraaq-section h3 {
+.lp-challenges-section-text h3,
+.lp-den-with-buraaq-section h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 55px;
   margin: 0;
 }
-.lp-challenges-section-text p, .lp-den-with-buraaq-section p {
+.lp-challenges-section-text p,
+.lp-den-with-buraaq-section p {
   font-size: 14px;
   font-weight: 300;
   margin: 10px 0 25px;
 }
 
-.lp-challenges-section-button, .lp-den-with-buraaq-section-button {
+.lp-challenges-section-button,
+.lp-den-with-buraaq-section-button {
   border: 0;
   text-align: center;
   display: inline-block;
@@ -198,113 +211,193 @@
   width: 1px;
 }
 .lp-den-with-buraaq-section img {
-    width: 35vw;
+  width: 35vw;
 }
 
-.lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
+.lp-den-offer-section-main-container1,
+.lp-den-offer-section-main-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
 }
 .lp-den-offer-section-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 14px;
-    height: 224.03px;
-    width: 348px;
-    color: rgb(255, 255, 255);
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 14px;
+  height: 224.03px;
+  width: 348px;
+  color: rgb(255, 255, 255);
+  padding: 50px;
 }
-.lp-den-offer-section-main-container1 .lp-den-offer-section-container:nth-child(1) {
-    background-image: url(../Assets/den-offer-seminars.png);
-    background-size: contain; /* Ensure the image fits within the box */
-    background-repeat: no-repeat;
-    background-position: center;
+.lp-den-offer-section-main-container1
+  .lp-den-offer-section-container:nth-child(1) {
+  background-image: url(../Assets/den-offer-seminars.png);
+  background-size: contain; /* Ensure the image fits within the box */
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.lp-den-offer-section-main-container1 .lp-den-offer-section-container:nth-child(2) {
-    background-image: url(../Assets/den-offer-workshops.png);
-    background-size: contain; /* Ensure the image fits within the box */
-    background-repeat: no-repeat;
-    background-position: center;
+.lp-den-offer-section-main-container1
+  .lp-den-offer-section-container:nth-child(2) {
+  background-image: url(../Assets/den-offer-workshops.png);
+  background-size: contain; /* Ensure the image fits within the box */
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.lp-den-offer-section-main-container2 .lp-den-offer-section-container:nth-child(1) {
-    background-image: url(../Assets/den-offer-courses.png);
-    background-size: contain; /* Ensure the image fits within the box */
-    background-repeat: no-repeat;
-    background-position: center;
+.lp-den-offer-section-main-container2
+  .lp-den-offer-section-container:nth-child(1) {
+  background-image: url(../Assets/den-offer-courses.png);
+  background-size: contain; /* Ensure the image fits within the box */
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.lp-den-offer-section-main-container2 .lp-den-offer-section-container:nth-child(2) {
-    background-image: url(../Assets/den-offer-internships.png);
-    background-size: contain; /* Ensure the image fits within the box */
-    background-repeat: no-repeat;
-    background-position: center;
+.lp-den-offer-section-main-container2
+  .lp-den-offer-section-container:nth-child(2) {
+  background-image: url(../Assets/den-offer-internships.png);
+  background-size: contain; /* Ensure the image fits within the box */
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .lp-den-offer-section-container h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .lp-den-offer-section-container p {
-    font-size: 10px;
+  font-size: 10px;
 }
 .lp-den-offer-section-container a {
-    font-size: 13px;
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
-    font-weight: 300;
+  font-size: 13px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
 }
 .lp-den-team-section-main-container {
-    display: grid;
-    grid-template-columns: 0fr 0fr 0fr 0fr;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3vw;
-    padding: 0;
-    margin: 0 5vw;
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr 0fr;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3vw;
+  padding: 0;
+  margin: 0 5vw;
 }
 .lp-den-team-section-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 10px;
-    width: 220px;
-    background-color: rgb(255, 255, 255);
-    margin: 20px 0;
-    border-radius: 5px;
-    padding-bottom: 20px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom: 3px solid lightskyblue; 
-    transition: box-shadow 0.1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 220px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px 0;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 3px solid lightskyblue;
+  transition: box-shadow 0.1s ease-in-out;
 }
 .lp-den-team-section-container img {
-    width: 220px;
-    border-radius: 5px;
+  width: 220px;
+  border-radius: 5px;
 }
 .lp-den-team-section-container h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 .lp-den-team-section-container p {
-    font-size: 10px;
-    font-weight: 300;
-    text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
 }
 .lp-den-team-section-container:hover {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px, rgba(0, 0, 0, 0.48) 0px 2px 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px, rgba(0, 0, 0, 0.48) 0px 2px 6px;
+}
+
+.lp-gallery-section-pictures-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0 0 0 -45px;
+}
+.lp-gallery-section-picture img {
+    height: 28vw;
+    width: auto;
+}
+
+
+
+
+/* 
+    .slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    }
+    .slide-track {
+    display: flex;
+    width: 100%;
+    animation: scroll 1s linear infinite;
+    }
+    @keyframes scroll{
+    0% {
+    transform: translatex(0);
+    }
+    100% {
+    transform: translatex(-100%);
+    }
+}
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    }
+    /* GRADIENT SHADOWS */
+    /* .slider::before,
+    .slider::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+    rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+    } */
+/* .slide:nth-child(1) img {
+  height: 300px;
+  width: 1500px;
+  object-fit: cover;
+}
+.slide:nth-child(2) img {
+    height: 300px;
+    width: 1500px;
+    object-fit: cover;
   }
+  .slide:nth-child(3) img {
+    height: 300px;
+    width: 1000px;
+    object-fit: cover;
+  }  */
+
+
+/* Media Queries */
 
 @media only screen and (max-width: 1024px) {
-    .lp-hero-section-text h1 {
-        font-size: 45px;
-        font-weight: 780;
-        letter-spacing: -2px;
-        line-height: 60px;
-      }
-      .lp-hero-section-text p {
-        font-size: 14px;
-      }
+  .lp-hero-section-text h1 {
+    font-size: 45px;
+    font-weight: 780;
+    letter-spacing: -2px;
+    line-height: 60px;
+  }
+  .lp-hero-section-text p {
+    font-size: 14px;
+  }
   .lp-hero-section {
     flex-direction: column;
     row-gap: 50px;
@@ -312,10 +405,14 @@
   .lp-hero-section-image {
     height: 70vw;
   }
-  .lp-why-den-section, .lp-den-offer-section, .lp-den-team-section-text p {
+  .lp-why-den-section,
+  .lp-den-offer-section,
+  .lp-den-team-section-text p {
     margin: 0 10vw;
   }
-  .lp-why-den-section h3, .lp-den-offer-section-text h3 {
+  .lp-why-den-section h3,
+  .lp-den-offer-section-text h3,
+  .lp-gallery-section-text h3  {
     font-size: 40px;
   }
   .lp-why-den-section-main-container {
@@ -333,12 +430,13 @@
   .lp-gray-strip img {
     height: 30px;
   }
-  .lp-challenges-section, .lp-den-with-buraaq-section {
+  .lp-challenges-section,
+  .lp-den-with-buraaq-section {
     flex-direction: column;
     row-gap: 50px;
   }
 
-.lp-challenges-section img {
+  .lp-challenges-section img {
     width: 80vw;
     height: auto;
   }
@@ -364,45 +462,59 @@
   .lp-den-with-buraaq-section img {
     width: 70vw;
   }
-  .lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
+  .lp-den-offer-section-main-container1,
+  .lp-den-offer-section-main-container2 {
     flex-direction: column;
-}
-.lp-den-team-section-main-container {
+  }
+  .lp-den-team-section-main-container {
     grid-template-columns: 0fr 0fr;
+  }
+  
+  .lp-gallery-section-text p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }
-}
-
 
 @media only screen and (max-width: 600px) {
-.lp-den-offer-section-container {
+  .lp-den-offer-section-container {
     height: 200px;
     width: 206px;
     padding-top: 0;
     padding-bottom: 0;
-}
-.lp-den-offer-section-container h4 {
+  }
+  .lp-den-offer-section-container h4 {
     font-size: 15px;
-}
-.lp-den-offer-section-container p {
+  }
+  .lp-den-offer-section-container p {
     font-size: 7px;
-}
-.lp-den-offer-section-container a {
+  }
+  .lp-den-offer-section-container a {
     font-size: 10px;
-}
-.lp-den-offer-section-main-container1, .lp-den-offer-section-main-container2 {
+  }
+  .lp-den-offer-section-main-container1,
+  .lp-den-offer-section-main-container2 {
     row-gap: 20px;
     margin-bottom: 20px;
-}
-.lp-den-team-section-container {
+  }
+  .lp-den-team-section-container {
     width: 170px;
-}
-.lp-den-team-section-container img {
+  }
+  .lp-den-team-section-container img {
     width: 170px;
-}
-.lp-den-team-section-container h4 {
+  }
+  .lp-den-team-section-container h4 {
     font-size: 12px;
-}
-.lp-den-team-section-container p {
+  }
+  .lp-den-team-section-container p {
     font-size: 6px;
-}
+  }
+  .lp-gallery-section-pictures-container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .lp-gallery-section-picture img {
+    width: 60vw;
+    height: auto;
+  }
 }

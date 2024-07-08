@@ -269,6 +269,23 @@ const LandingPage = () => {
             </div>
         </div>
       </div>
+      <div className="lp-gallery-section">
+        <div className="lp-gallery-section-text">
+            <h3>Our Gallery</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
+        </div>
+            <div className="lp-gallery-section-pictures-container">
+            <div className="lp-gallery-section-picture">
+                <img src={require("../Assets/slide1.jpg")} alt="" />
+            </div>
+            <div className="lp-gallery-section-picture">
+                <img src={require("../Assets/slide2.jpg")} alt="" />
+            </div>
+            <div className="lp-gallery-section-picture">
+                <img src={require("../Assets/slide3.jpg")} alt="" />
+            </div>
+        </div>
+      </div>
     </div>
   );
 };
