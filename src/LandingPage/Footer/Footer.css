@@ -1,53 +1,54 @@
 .lp-footer {
-    background-color: rgb(230, 245, 248);
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    column-gap: 5vw;
-    padding: 10vh 10vw 5vh 5vw;
+  background-color: rgb(230, 245, 248);
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 5vw;
+  padding: 10vh 10vw 5vh 5vw;
 }
 h5 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 2vh;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2vh;
 }
 a {
-    font-size: 13px;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 1.5vh;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1.5vh;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .footer-den-info {
-    width: 25vw;
+  width: 25vw;
 }
-.footer-company, .footer-links {
-    display: flex;
-    flex-direction: column;
+.footer-company,
+.footer-links {
+  display: flex;
+  flex-direction: column;
 }
 .footer-follow-us-logos {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .footer-follow-us img {
-    width: 20px;
-    height: 20px;
-    margin-right: 1vw;
+  width: 20px;
+  height: 20px;
+  margin-right: 1vw;
 }
 
 @media only screen and (max-width: 600px) {
-    .lp-footer {
-        grid-template-columns: 2fr 1fr;
-        gap: 20px; 
-    }
-      .lp-footer:nth-child(4) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .footer-links {
-        margin-top: 20px;
-      }
+  .lp-footer {
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .lp-footer:nth-child(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links {
+    margin-top: 20px;
+  }
 }

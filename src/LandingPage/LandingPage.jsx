@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
-import Review from "./Review"
-import Footer from "./Footer/Footer"
+import Review from "./Review";
+import Footer from "./Footer/Footer";
 import "./LandingPage.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -53,11 +53,11 @@ const LandingPage = () => {
       </div>
       <div className="lp-why-den-section">
         <div className="lp-why-den-section-text">
-        <h3>Why Choose DEN</h3>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking
-        </p>
+          <h3>Why Choose DEN</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking
+          </p>
         </div>
         <div className="lp-why-den-section-main-container">
           <div className="lp-why-den-section-container">
@@ -225,134 +225,362 @@ const LandingPage = () => {
       </div>
       <div className="lp-den-team-section">
         <div className="lp-den-team-section-text">
-            <h3>Our Amazing Team</h3>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
+          <h3>Our Amazing Team</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking
+          </p>
         </div>
         <div className="lp-den-team-section-main-container">
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-founder.png")} alt="" />
-                <h4>Syed Suhail Karar</h4>
-                <p>Founder DEN</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-founder.png")}
+              alt=""
+            />
+            <h4>Syed Suhail Karar</h4>
+            <p>Founder DEN</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-co-founder.png")} alt="" />
-                <h4>Semab Tabassum</h4>
-                <p>Co-Founder DEN</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-co-founder.png")}
+              alt=""
+            />
+            <h4>Semab Tabassum</h4>
+            <p>Co-Founder DEN</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-president.png")} alt="" />
-                <h4>Muhammad Faizan</h4>
-                <p>President DEN</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-president.png")}
+              alt=""
+            />
+            <h4>Muhammad Faizan</h4>
+            <p>President DEN</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-co-head.png")} alt="" />
-                <h4>Ifra Zubair Malik</h4>
-                <p>Co-head of DEN marketing and communication team </p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-co-head.png")}
+              alt=""
+            />
+            <h4>Ifra Zubair Malik</h4>
+            <p>Co-head of DEN marketing and communication team </p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-head-of-gd.png")} alt="" />
-                <h4>Muddasir Haroon</h4>
-                <p>Head of Graphics Designing</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-head-of-gd.png")}
+              alt=""
+            />
+            <h4>Muddasir Haroon</h4>
+            <p>Head of Graphics Designing</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-cto.png")} alt="" />
-                <h4>Syed Afzal</h4>
-                <p>Cheif Technology (CTO)</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-cto.png")}
+              alt=""
+            />
+            <h4>Syed Afzal</h4>
+            <p>Cheif Technology (CTO)</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-full-stack-dev.png")} alt="" />
-                <h4>Faraz</h4>
-                <p>Senior full-stack Developer</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-full-stack-dev.png")}
+              alt=""
+            />
+            <h4>Faraz</h4>
+            <p>Senior full-stack Developer</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
-            <div className="lp-den-team-section-container">
-                <img className="lp-den-team-profile-pic" src={require("../Assets/den-head-ui.png")} alt="" />
-                <h4>Maha Riaz</h4>
-                <p>Head of UI/UX Designing</p>
-                <div className="lp-den-team-section-container-logos">
-                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
-                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
-                </div>
+          </div>
+          <div className="lp-den-team-section-container">
+            <img
+              className="lp-den-team-profile-pic"
+              src={require("../Assets/den-head-ui.png")}
+              alt=""
+            />
+            <h4>Maha Riaz</h4>
+            <p>Head of UI/UX Designing</p>
+            <div className="lp-den-team-section-container-logos">
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/linkedin.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/instagram.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/facebook.png")}
+                  alt=""
+                />
+              </a>
+              <a href="/">
+                <img
+                  className="logo"
+                  src={require("../Assets/behance.png")}
+                  alt=""
+                />
+              </a>
             </div>
+          </div>
         </div>
       </div>
       <div className="lp-gallery-section">
         <div className="lp-gallery-section-text">
-            <h3>Our Gallery</h3>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
+          <h3>Our Gallery</h3>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking
+          </p>
         </div>
-            <div className="lp-gallery-section-pictures-container">
-            <div className="lp-gallery-section-picture">
-                <img src={require("../Assets/slide1.jpg")} alt="" />
-            </div>
-            <div className="lp-gallery-section-picture">
-                <img src={require("../Assets/slide2.jpg")} alt="" />
-            </div>
-            <div className="lp-gallery-section-picture">
-                <img src={require("../Assets/slide3.jpg")} alt="" />
-            </div>
+        <div className="lp-gallery-section-pictures-container">
+          <div className="lp-gallery-section-picture">
+            <img src={require("../Assets/slide1.jpg")} alt="" />
+          </div>
+          <div className="lp-gallery-section-picture">
+            <img src={require("../Assets/slide2.jpg")} alt="" />
+          </div>
+          <div className="lp-gallery-section-picture">
+            <img src={require("../Assets/slide3.jpg")} alt="" />
+          </div>
         </div>
       </div>
       <div className="lp-reviews-section">
-        
-      <div className="lp-reviews-section-text">
-        <h3>What Our Students Say About Us</h3>
-      </div>
-      <div className="lp-reviews">
-      <Review/>
-
-      </div>
+        <div className="lp-reviews-section-text">
+          <h3>What Our Students Say About Us</h3>
+        </div>
+        <div className="lp-reviews">
+          <Review />
+        </div>
       </div>
       <div className="lp-apply-campus-dir-section">
         <h4>Want to get involved? We are looking for Campus Directors</h4>
         <a href="/" className="lp-apply-campus-dir-section-button">
-              Apply Now
-            </a>
+          Apply Now
+        </a>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

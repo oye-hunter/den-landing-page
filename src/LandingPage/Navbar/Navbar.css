@@ -1,147 +1,174 @@
 .navbar-container {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 2vh 0;
-    z-index: 99;
-    background-color: rgb(249, 250, 252);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2vh 0;
+  z-index: 99;
+  background-color: rgb(249, 250, 252);
 }
 
 .navbar-items-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25vw;
 }
 
 .navbar-item {
-    color: #000;
-    font-size: 13px;
-    font-weight: 500.1;
+  color: #000;
+  font-size: 13px;
+  font-weight: 500.1;
 }
 
 .account-bn {
-    border: 0;
-    text-align: center;
-    display: inline-block;
-    padding: 12px;
-    width: 9vw;
-    margin: 0 5px;
-    color: rgb(30, 30, 30);
-    background-color: rgb(230, 245, 248);
-    border-radius: 8px;
-    font-family: "proxima-nova-soft", sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 14px;
-  }
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 12px;
+  width: 9vw;
+  margin: 0 5px;
+  color: rgb(30, 30, 30);
+  background-color: rgb(230, 245, 248);
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
 .logo-alignment {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  .navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+/* .navbar-logo {
     width: 100px;
 }
   .navbar-logo-search {
     width: 15px;
     margin-right: 15px;
-  }
+  } */
+
+.signup-bn {
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 12px;
+  width: 5vw;
+  margin: 0 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 195, 208);
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar-apply-bn {
+  border: 0;
+  text-align: center;
+  display: none;
+  padding: 12px;
+  width: 50px;
+  margin: 0 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 195, 208);
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.nav-button,
+.close-button {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: none;
+}
+.form-control {
+  max-width: 20%;
+}
+.search-input {
+  width: 150px;
+  height: 20px;
+  margin-left: 30%; /*  Adjust margin as needed */
+  position: absolute; /* Position absolutely within navbar */
+  top: 90px; /* Adjust top position to center vertically */
+  transform: translateY(-50%); /* Center vertically */
+  z-index: 100; /* Ensure it's above other elements */
+}
+#searchBtn {
+  height: 40px;
+  max-width: 30px;
+  margin-right: 15px;
+}
+@media only screen and (max-width: 1143px) {
+  .account-bn,
   .signup-bn {
-    border: 0;
-    text-align: center;
-    display: inline-block;
-    padding: 12px;
-    width: 5vw;
-    margin: 0 2px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(68, 195, 208);
-    border-radius: 8px;
-    font-family: "proxima-nova-soft", sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
   }
-
+}
+@media only screen and (max-width: 1024px) {
+  .nav-button {
+    display: block;
+    position: relative;
+    top: -3px;
+  }
+  .account-bn,
+  .signup-bn,
+  .navbar-logo-search {
+    display: none;
+  }
   .navbar-apply-bn {
-    border: 0;
-    text-align: center;
-    display: none;
-    padding: 12px;
-    width: 50px;
-    margin: 0 2px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(68, 195, 208);
-    border-radius: 8px;
-    font-family: "proxima-nova-soft", sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 10px;
+    display: inline-block;
   }
-
-  .nav-button, .close-button {
-    padding: 5px;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    outline: none;
-    display: none;
+  .search-input {
+    left: 70vw;
+    margin-left: 0;
+    top: 70px; /* Adjust top position to center vertically */
   }
-  @media only screen and (max-width: 1143px){
-    .account-bn, .signup-bn {
-      font-size: 12px;
-    }
-  } 
-  @media only screen and (max-width: 1024px) {
-    .nav-button {
-      display: block;
-      position: relative;
-      top: -3px;
-    }
-    .account-bn, .signup-bn, .navbar-logo-search {
-      display: none;
-    }
-    .navbar-apply-bn {
-      display: inline-block;
-    }
-    .navbar-items-container {
-      position: fixed;
-      top: -100vh;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      background-color: rgb(249, 250, 252);
-      transition: 1s;
-    }
+  .navbar-items-container {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(249, 250, 252);
+    transition: 1s;
+  }
   .navbar-item {
     font-size: 25px;
   }
-    .responsive-navbar {
-      transform: translateY(100vh);
-    }
-  
-    .close-button{
-      position: absolute;
-      display: block;
-      top: 10px;
-      left: 10px;
-    }
-    .navbar-container {
-      justify-content: space-between;
-      padding: 0 2vw;
-      width: 96vw;
-      margin: 0;
+  .responsive-navbar {
+    transform: translateY(100vh);
+  }
+
+  .close-button {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+  }
+  .navbar-container {
+    justify-content: space-between;
+    padding: 0 2vw;
+    width: 96vw;
+    margin: 0;
   }
   .navbar-logo {
     position: relative;
     top: 5px;
-}
   }
+}
