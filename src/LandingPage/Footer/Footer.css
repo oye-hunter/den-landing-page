@@ -39,30 +39,10 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
     .lp-footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-          "item1 item1 item1"
-          "item2 item3 item3"
-          "item1 item4 item4";
-        gap: 20px; /* Adjust the gap between items as needed */
-      }
-      
-      .lp-footer:nth-child(1) {
-        grid-area: item1;
-      }
-      
-      .lp-footer:nth-child(2) {
-        grid-area: item2;
-      }
-      
-      .lp-footer:nth-child(3) {
-        grid-area: item3;
-      }
-      
+        grid-template-columns: 2fr 1fr;
+        gap: 20px; 
+    }
       .lp-footer:nth-child(4) {
-        grid-area: item4;
         display: flex;
         justify-content: center;
         align-items: center;
