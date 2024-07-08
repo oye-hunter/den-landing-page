@@ -284,6 +284,21 @@
     padding: 0;
     margin: 0 5vw;
   }
+  .lp-den-team-section-container-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .lp-den-team-section-container-logos a {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    width: 12px;
+    margin: 3px;
+  }
   .lp-den-team-section-container {
     display: flex;
     justify-content: center;
@@ -300,7 +315,7 @@
     border-bottom: 3px solid lightskyblue;
     transition: box-shadow 0.1s ease-in-out;
   }
-  .lp-den-team-section-container img {
+  .lp-den-team-section-container .lp-den-team-profile-pic {
     width: 220px;
     border-radius: 5px;
   }
@@ -325,6 +340,34 @@
   .lp-gallery-section-picture img {
       height: 28vw;
       width: auto;
+  }
+  .lp-apply-campus-dir-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgb(68, 195, 208);
+    padding: 10vh 20vw 5vh;
+  }
+  .lp-apply-campus-dir-section h4 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 560;
+
+  }
+  .lp-apply-campus-dir-section-button {
+    text-align: center;
+    display: inline-block;
+    padding: 14px;
+    width: 90px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
   }
   
   

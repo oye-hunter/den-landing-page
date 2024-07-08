@@ -229,44 +229,92 @@ const LandingPage = () => {
         </div>
         <div className="lp-den-team-section-main-container">
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-founder.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-founder.png")} alt="" />
                 <h4>Syed Suhail Karar</h4>
                 <p>Founder DEN</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-co-founder.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-co-founder.png")} alt="" />
                 <h4>Semab Tabassum</h4>
                 <p>Co-Founder DEN</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-president.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-president.png")} alt="" />
                 <h4>Muhammad Faizan</h4>
                 <p>President DEN</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-co-head.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-co-head.png")} alt="" />
                 <h4>Ifra Zubair Malik</h4>
                 <p>Co-head of DEN marketing and communication team </p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-head-of-gd.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-head-of-gd.png")} alt="" />
                 <h4>Muddasir Haroon</h4>
                 <p>Head of Graphics Designing</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-cto.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-cto.png")} alt="" />
                 <h4>Syed Afzal</h4>
                 <p>Cheif Technology (CTO)</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-full-stack-dev.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-full-stack-dev.png")} alt="" />
                 <h4>Faraz</h4>
                 <p>Senior full-stack Developer</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
             <div className="lp-den-team-section-container">
-                <img src={require("../Assets/den-head-ui.png")} alt="" />
+                <img className="lp-den-team-profile-pic" src={require("../Assets/den-head-ui.png")} alt="" />
                 <h4>Maha Riaz</h4>
                 <p>Head of UI/UX Designing</p>
+                <div className="lp-den-team-section-container-logos">
+                    <a href="/"><img className="logo" src={require("../Assets/linkedin.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/instagram.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/facebook.png")} alt="" /></a>
+                    <a href="/"><img className="logo" src={require("../Assets/behance.png")} alt="" /></a>
+                </div>
             </div>
         </div>
       </div>
@@ -296,6 +344,12 @@ const LandingPage = () => {
       <Review/>
 
       </div>
+      </div>
+      <div className="lp-apply-campus-dir-section">
+        <h4>Want to get involved? We are looking for Campus Directors</h4>
+        <a href="/" className="lp-apply-campus-dir-section-button">
+              Apply Now
+            </a>
       </div>
     </div>
   );
