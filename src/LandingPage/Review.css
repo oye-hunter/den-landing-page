@@ -118,8 +118,8 @@ cite strong {
 
   }
 
-  @media only screen and (max-width: 786px) {
+  @media only screen and (max-width: 600px) {
     blockquote::after {
-        margin-top: 20vh;
+        margin-top: 22vh;
     }
   }
