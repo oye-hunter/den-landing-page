@@ -1,0 +1,71 @@
+.lp-footer {
+    background-color: rgb(230, 245, 248);
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    column-gap: 5vw;
+    padding: 10vh 10vw 5vh 5vw;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1.5vh;
+}
+a:hover {
+    text-decoration: underline;
+}
+.footer-den-info {
+    width: 25vw;
+}
+.footer-company, .footer-links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-follow-us-logos {
+    display: flex;
+    align-items: center;
+}
+.footer-follow-us img {
+    width: 20px;
+    height: 20px;
+    margin-right: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .lp-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+          "item1 item1 item1"
+          "item2 item3 item3"
+          "item1 item4 item4";
+        gap: 20px; /* Adjust the gap between items as needed */
+      }
+      
+      .lp-footer:nth-child(1) {
+        grid-area: item1;
+      }
+      
+      .lp-footer:nth-child(2) {
+        grid-area: item2;
+      }
+      
+      .lp-footer:nth-child(3) {
+        grid-area: item3;
+      }
+      
+      .lp-footer:nth-child(4) {
+        grid-area: item4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+}

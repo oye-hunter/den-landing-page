@@ -297,7 +297,7 @@
   }
   .logo {
     width: 12px;
-    margin: 3px;
+    margin: 0 3px;
   }
   .lp-den-team-section-container {
     display: flex;
@@ -486,8 +486,12 @@
     .lp-den-team-section-container {
       width: 170px;
     }
-    .lp-den-team-section-container img {
+    .lp-den-team-section-container .lp-den-team-profile-pic {
       width: 170px;
+    }
+    .logo {
+        width: 8px;
+        margin: 0 2px;
     }
     .lp-den-team-section-container h4 {
       font-size: 12px;

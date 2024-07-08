@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import Review from "./Review"
+import Footer from "./Footer/Footer"
 import "./LandingPage.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -351,6 +352,7 @@ const LandingPage = () => {
               Apply Now
             </a>
       </div>
+      <Footer/>
     </div>
   );
 };
