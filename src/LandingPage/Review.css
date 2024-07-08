@@ -1,0 +1,119 @@
+.testimonialheading{
+    margin: 30px 0;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+}
+.testimonial-section {
+    text-align: center;
+    margin: 10vh 10vw;
+    width: 80vw;
+    height: 60vh;
+    padding: 5vh 0 10vh;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+    max-width: 60vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+blockquote {
+    font-size: 1.25em;
+    color: #333;
+    margin: 0;
+}
+blockquote::before,
+blockquote::after {
+    content: '"';
+    font-size: 45px;
+    color: #007BFF;
+    position: absolute;
+    top: -5vh;
+}
+blockquote::before {
+    left: -2vw;
+}
+blockquote::after {
+    margin-top: 17vh;
+    right: -2vw;
+}
+
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #666;
+}
+
+cite strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+.testimonial-navigation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-navigation img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-navigation img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial-navigation img.active {
+    border: 3px solid #007BFF;
+    transform: scale(1.4); /* Optional: Increase size */
+    justify-content: space-around;
+}
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    #testimonial-author {
+        font-size: 17px;
+    }
+    #testimonial-position{
+        font-size: 11px;
+    }
+    .testimonial-navigation img {
+        width: 30px;
+        height: 30px;
+    }
+    #testimonial-text p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+
+    #testimonial-author {
+        font-size: 15px;
+    }
+    #testimonial-position{
+        font-size: 9px;
+    }
+    #testimonial-text p {
+        font-size: 10px;
+    }
+
+  }

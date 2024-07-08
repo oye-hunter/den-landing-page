@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
+import Review from "./Review"
 import "./LandingPage.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
@@ -285,6 +286,16 @@ const LandingPage = () => {
                 <img src={require("../Assets/slide3.jpg")} alt="" />
             </div>
         </div>
+      </div>
+      <div className="lp-reviews-section">
+        
+      <div className="lp-reviews-section-text">
+        <h3>What Our Students Say About Us</h3>
+      </div>
+      <div className="lp-reviews">
+      <Review/>
+
+      </div>
       </div>
     </div>
   );
