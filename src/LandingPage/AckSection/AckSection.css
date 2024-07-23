@@ -1,6 +1,7 @@
 .lp-ack-section-carousal {
     position: relative;
     left: 3vw;
+    margin-top: 5vh;
 }
 .lp-ack-section-carousal .lp-ack-section-carousal-item img {
     width: 27vw;
