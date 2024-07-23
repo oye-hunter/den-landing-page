@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
+import AckSection from "./AckSection/AckSection"
 import Review from "./Review";
 import Footer from "./Footer/Footer";
 import "./LandingPage.css";
@@ -223,6 +224,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <AckSection/>
       <div className="lp-den-team-section">
         <div className="lp-den-team-section-text">
           <h3>Our Amazing Team</h3>

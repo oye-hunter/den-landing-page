@@ -1,0 +1,33 @@
+.lp-ack-section-carousal {
+    position: relative;
+    left: 3vw;
+}
+.lp-ack-section-carousal .lp-ack-section-carousal-item img {
+    width: 27vw;
+}
+
+.lp-ack-section-carousal-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.lp-ack-section-carousal-buttons button {
+    background-color: #f5f5f5;
+    border: 1px solid rgb(84, 161, 215);
+    color: rgb(84, 161, 215);
+    padding: 2px 3px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .lp-ack-section-carousal {
+        left: 5vw;
+    }
+    .lp-ack-section-carousal .lp-ack-section-carousal-item img {
+        width: 40vw;
+    }
+}
