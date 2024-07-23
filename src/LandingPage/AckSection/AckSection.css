@@ -35,9 +35,9 @@
 
 
 @media only screen and (max-width: 600px){
-    /* .lp-ack-section-carousal {
-        left: 5vw;
-    } */
+    .lp-ack-section-carousal {
+        left: 12vw;
+    }
     .lp-ack-section-carousal .lp-ack-section-carousal-item img {
         width: 70vw;
     }
