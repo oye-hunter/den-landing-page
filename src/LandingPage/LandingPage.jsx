@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import AckSection from "./AckSection/AckSection"
+import GlimpseSection from "./GlimpseSection/GlimpseSection";
 import Review from "./Review";
 import Footer from "./Footer/Footer";
 import "./LandingPage.css";
@@ -548,6 +549,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      <GlimpseSection />
       <div className="lp-gallery-section">
         <div className="lp-gallery-section-text">
           <h3>Our Gallery</h3>

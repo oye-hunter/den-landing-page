@@ -1,0 +1,74 @@
+.lp-glimpse-section {
+    display: flex;
+    flex-direction: column;
+}
+.lp-glimpse-section-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 10vw 50px;
+    text-align: center;
+}
+
+.lp-glimpse-section-buttons .button {
+    background-color: rgb(244, 245, 250);
+    padding: 8px 11px;
+}
+.lp-glimpse-section-buttons .active {
+    background-color: rgb(68, 195, 208);
+}
+.lp-glimpse-section-images {
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    row-gap: 1vw;
+    padding: 0;
+    margin: 0 5vw 5vh;
+}
+.lp-glimpse-section-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lp-glimpse-section-image img {
+    width: 20vw;
+}
+.lp-glimpse-section-image .image-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 20vw;
+}
+.lp-glimpse-section-image .image-text p {
+    padding: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .lp-glimpse-section-buttons {
+        font-size: 10px;
+        justify-content: space-between;
+        margin: 20px 5vw 40px 5vw;
+    }
+    .lp-glimpse-section-images {
+        grid-template-columns: 0fr 0fr;
+    }
+    .lp-glimpse-section-image img {
+        width: 30vw;
+    }
+    .lp-glimpse-section-image .image-text {
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .lp-glimpse-section-buttons {
+        font-size: 7px;
+    }
+}

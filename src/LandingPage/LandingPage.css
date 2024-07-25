@@ -80,12 +80,13 @@
   height: 40px;
 }
 
-.lp-why-den-section h3,
+/* .lp-why-den-section h3,
 .lp-den-offer-section-text h3,
 .lp-den-team-section-text h3,
 .lp-gallery-section-text h3,
 .lp-reviews-section-text h3,
-.lp-ack-section-text h3 {
+.lp-ack-section-text  */
+h3 {
   display: flex;
   margin: 20vh 0 10px;
   justify-content: center;
@@ -98,7 +99,8 @@
 .lp-den-offer-section-text p,
 .lp-den-team-section-text p,
 .lp-gallery-section-text p,
-.lp-ack-section-text p {
+.lp-ack-section-text p,
+.lp-glimpse-section-text p {
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -106,10 +108,11 @@
   margin-bottom: 10vh;
 }
 .lp-why-den-section-text,
-.lp-den-offer-section-text p,
-.lp-den-team-section-text p,
-.lp-gallery-section-text p,
-.lp-ack-section-text p  {
+.lp-den-offer-section-text,
+.lp-den-team-section-text,
+.lp-gallery-section-text,
+.lp-ack-section-text,
+.lp-glimpse-section-text  {
   text-align: center;
 }
 .lp-why-den-section-main-container {
@@ -397,11 +400,12 @@
   .lp-ack-section-text p {
     margin: 0 10vw;
   }
-  .lp-why-den-section h3,
+  /* .lp-why-den-section h3,
   .lp-den-offer-section-text h3,
   .lp-gallery-section-text h3,
   .lp-den-team-section-text h3,
-  .lp-ack-section-text h3 {
+  .lp-ack-section-text  */
+  h3 {
     font-size: 40px;
   }
   .lp-why-den-section-main-container {
